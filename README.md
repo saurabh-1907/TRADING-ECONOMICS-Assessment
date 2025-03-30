@@ -18,7 +18,7 @@ Ensure you have the following installed before running the project:
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/your-username/mexico-trade-dashboard.git
+   https://github.com/saurabh-1907/TRADING-ECONOMICS-Assessment
    cd mexico-trade-dashboard
    ```
 
