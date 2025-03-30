@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Mexico Trade Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*`screenshots/mexico_trade_dashboard.png` *
 
-## Available Scripts
+This project is a React-based web application that visualizes Mexico's trade data using the Trading Economics API. It fetches and displays trade-related statistics in a line chart and tabular format.
 
-In the project directory, you can run:
+## Features
+- Fetches real-time trade data from the Trading Economics API.
+- Displays the data using a Recharts line chart.
+- Provides a table for detailed data visualization.
 
-### `npm start`
+## Prerequisites
+Ensure you have the following installed before running the project:
+- Node.js (https://nodejs.org/)
+- npm (Node Package Manager, included with Node.js)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/your-username/mexico-trade-dashboard.git
+   cd mexico-trade-dashboard
+   ```
 
-### `npm test`
+2. **Install Dependencies**
+   ```sh
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Set Up API Key**
+   - Rename `.env.example` to `.env`:
+     ```sh
+     mv .env.example .env
+     ```
+   - Open `.env` and add your Trading Economics API key:
+     ```sh
+     REACT_APP_TE_API_KEY=your_api_key_here
+     ```
 
-### `npm run build`
+4. **Run the Application**
+   ```sh
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   This will start the development server, and the application will be available at `http://localhost:3000/`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+- The application will fetch trade data for Mexico from the Trading Economics API.
+- It will display the data in a table and visualize it using a line chart.
+- Click on any data title to open its source in a new tab.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
+- React.js
+- Axios (for API requests)
+- Recharts (for data visualization)
+- Trading Economics API
 
-### `npm run eject`
+## License
+This project is licensed under the MIT License.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
+For any questions or issues, please contact [Your Name] at [Your Email].
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
