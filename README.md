@@ -1,6 +1,8 @@
 # Mexico Trade Dashboard
 
-*`screenshots/mexico_trade_dashboard.png` *
+![Screenshot 2025-03-30 153126](https://github.com/user-attachments/assets/7b936db3-6c13-4e91-9a16-6b5542715484)
+
+![Screenshot 2025-03-30 153216](https://github.com/user-attachments/assets/8313c1b5-9283-467b-8d2d-fe2a50bddb53)
 
 This project is a React-based web application that visualizes Mexico's trade data using the Trading Economics API. It fetches and displays trade-related statistics in a line chart and tabular format.
 
